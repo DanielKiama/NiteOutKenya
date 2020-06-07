@@ -1,0 +1,243 @@
+/* header section css */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Gilroy-ExtraBold';
+}
+body{
+  font-family: 'point-light';
+  color: #171436;
+  font-size: 18px;
+}
+strong{
+  font-family: 'point-bold';
+}
+header{
+  background: #171436;
+ min-height: 90px;
+}
+.logo{
+  margin-top: 15px;
+  max-width: 150px;
+}
+header ul.top_right_nav{
+  float: right;
+  margin: 0;
+}
+header ul.top_right_nav li{
+  color: #fff;
+  list-style: none;
+  float: left;
+  padding:30px 20px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+header ul.top_right_nav li:hover{
+  background: #03d57f;
+  transition: 0.3s;
+
+}
+@media only screen and (min-width:1367px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl{
+    max-width: 1366px;
+  }
+}
+
+
+header ul.left_section_nav li{
+  color: #fff;
+  list-style: none;
+  float: left;
+  margin: 35px 10px 0;
+}
+header ul.left_section_nav li {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #171436;
+  padding: 2px 0 0 7px;
+  font-size: 17px;
+}
+
+header ul.left_section_nav li.first_icon {
+
+  padding: 2px 0 0 10px;
+}
+.humb_icon{
+  float: left;
+  width: 40px;
+  margin-right: 20px;
+  padding-top: 25px;
+}
+.humb_icon span{
+  width: 100%;
+    height: 4px;
+    background: white;
+    float: left;
+    margin: 5px 0;
+}
+.humb_icon span:nth-child(3){
+  width:80%
+}
+/* end header section css */
+
+
+/* mobile nav css */
+@media only screen and (max-width:1080px){
+  .hide_on_mobile{
+    display: none
+  }
+}
+@media only screen and (min-width:1080px){
+  .hide_on_large{
+    display: none
+  }
+}
+.hide_on_large .logo{
+  float: right;
+}
+.top_advert p{
+  background: #05ff99;
+  font-weight: bold;
+}
+
+/* end mobile nav css */
+
+/* banner section */
+
+.video_section{
+  position: relative;
+  min-height: 75vh;
+}
+.video_section video{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+.video_content {
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  background:#6c15b294;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 50px 0 0 130px;
+}
+
+.video_content h1{
+  font-size: 75px;
+  max-width: 605px;
+  line-height: 75px;
+}
+
+.video_content h2{
+  font-family: 'Gilroy-Light';
+  font-weight: bolder;
+  max-width: 605px;
+  margin-top: 50px;
+  font-size: 27px;
+}
+.banner_right_section{
+  padding:0 20px;
+}
+.banner_right_section img{
+  width: 98%;
+  margin: 20px 0 0
+}
+
+.form_section {
+  background: #fff;
+  color: #171436;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 95%;
+  margin-top: 50px;
+}
+.form_section  h2{
+margin: 0;
+text-align: right;
+font-size: 22px;
+}
+.form_section .MuiFormControl-root{
+  width:100%
+}
+.MuiInput-root{
+  width: 100%;
+}
+
+.form_section button{
+  color: #171436;
+  width: 100%;
+  background: #05ff99;
+  border: none;
+  box-shadow: none;
+  padding: 15px;
+  font-family: 'Gilroy-ExtraBold';
+  font-size: 20px;
+}
+.form_section button.discover{
+  background: #8cffe1;
+}
+.form_section input{
+  border: none;
+    background: #e6e6e6;
+    min-height: 55px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form_section .lighter_bg{
+  background: #f2f2f2;
+}
+
+/* banner section */
+
+/* what we do css */
+.what_we_do img{
+  width:100%
+}
+.what_we_do h1{
+  margin: 40px 0 0;
+  position: relative;
+  padding: 40px;
+}
+@media only screen and (min-width:1366px){
+  .what_we_do h1{
+    font-size: 70px;
+   
+  }
+}
+.what_we_do h1::after, .what_we_do h1::before{
+  position: absolute;
+    top: 55%;
+    height: 2px;
+    width: 35%;
+    background: #8cffe1;
+    right: 0;
+    content: '';
+}
+.what_we_do h1::before{
+  left: 0;
+}
+
+.what_we_do_content{
+  text-align: center;
+  max-width: 90%;
+  margin:30px auto;
+}
+
+.best_of_kenya h3{
+  color: #05ff99;
+  font-size: 25px;
+}
+
+.app_section{
+  background: #171436;
+  color: #fff;
+  padding:20px 40px;
+  display: none
+}
